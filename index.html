@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code gì cũng được</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <article>
+        <h1 id="headline"> </h1>
+        <p id="text">Tôi như là con kiến</p>
+        <p id="text1">Trong thủ đô vội vàng</p>
+        <p id="text2">Một ngàn năm văn hiến </p>
+        <p id="text3">Một ngàn năm yêu chàng.</p>
+
+        <p id="text4"> Nếu em là con kiến</p>
+        <p id="text5"> Anh là lũy tre làng</p>
+        <p id="text6">Một ngàn năm cống hiến</p>
+        <p id="text7"> Một ngàn năm yêu nàng</p>
+        <p id="text8"> ---phuc_magin2px---</p>
+        <audio id="myAudio" controls>
+            <source src="./audio/fakelove.mp4" type="audio/mp4">
+            Your browser does not support the audio element.
+        </audio>
+
+        <button id="playButton">Play Music</button>
+
+    </article>
+</body>
+<script src="pro.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var audio = document.getElementById("myAudio");
+        var playButton = document.getElementById("playButton");
+
+        playButton.addEventListener("click", function () {
+            audio.play();
+        });
+    });
+</script>
+
+</html>
